@@ -1,0 +1,10 @@
+{% extends 'home' %}
+
+{% block page_title %}
+<title>About Czar</title>
+{% endblock page_title %}
+
+{% block content %}
+
+
+{% endblock %}
