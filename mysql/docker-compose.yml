@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_USER: stewie
+      MYSQL_PASSWORD: dewie
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+      - /var/run/mysqld:/var/run/mysqld/
+    ports:
+      - 3308:3306
